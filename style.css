@@ -1,0 +1,49 @@
+body {
+    font-size: 2rem;
+    font-family: helvetica;
+    font-weight: 100;
+}
+
+#head {
+    width: 800px;
+    height: 120px;
+    margin: 50px auto 0px auto;
+    font-size: 4rem;
+    color:navy;
+}
+
+.container {
+    width: 1000px;
+    height: 650px;
+    border-radius: 15px;
+    margin: 50px auto 0px auto;
+    display: flex;
+    flex-wrap: nowrap;
+    background-image: url('img/pokemon_bg.png');
+    background-size: cover;
+}
+
+#row_1,
+#row_2 {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 900px;
+    height: 280px;
+    margin: 30px 50px 0px 50px;
+}
+
+.cards {
+    height: 280px;
+    width: 200px;
+    margin: 0px 12.5px 0px 12.5px;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.cards img {
+    size
+}
+
+.cover {
+    background-image: url('img/pokemon_card.jpg');
+}
